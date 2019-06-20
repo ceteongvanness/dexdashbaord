@@ -12,6 +12,7 @@
         <activity
                 android:icon="@drawable/ic_launcher_foreground"
                 android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
+                android:resizeableActivity="true"
                 android:name=".MainActivity"
                 android:label="DexDashboard" >
         <intent-filter>
@@ -19,7 +20,8 @@
             <category android:name="android.intent.category.LAUNCHER"></category>
         </intent-filter>
         </activity>
-
     </application>
+    <uses-configuration android:reqTouchScreen="finger" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="true" />
 
 </manifest>
