@@ -23,5 +23,4 @@
     </application>
     <uses-configuration android:reqTouchScreen="finger" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="true" />
-
 </manifest>
