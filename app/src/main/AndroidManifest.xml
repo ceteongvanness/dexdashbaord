@@ -11,6 +11,7 @@
             android:theme="@style/AppTheme">
         <activity
                 android:icon="@drawable/ic_launcher_foreground"
+                android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize"
                 android:name=".MainActivity"
                 android:label="DexDashboard" >
         <intent-filter>
